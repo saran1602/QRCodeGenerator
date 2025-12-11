@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.app-container{
+    width: 100%;
+    height: 100vh;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.qrimage{
+    padding : 5px;
+    box-shadow: 0 0 10px black;
+}
+.inputlabel{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+    color : black;
+}
+input{
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 15px;
+    border : 2px solid;
+    border-radius: 5px;
+}
+button{
+    padding: 15px 20px;
+    font-size: 18px;
+    color : white;
+    border : none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.generate{
+    color : yellow;
+    background-color: black;
+}
+.generate:disabled{
+    background-color: grey;
+    cursor: not-allowed;
+
+}
+.download{
+    color : brown;
+    background-color: aqua;
+    margin-left: 10px;
+}
+.credits{
+    margin-left: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: medium;
+}
